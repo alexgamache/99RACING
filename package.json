@@ -4,7 +4,9 @@
   "description": "PS1 Style NASCAR Game/Demo using Babylon.js",
   "main": "public/index.html",
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "build": "webpack",
+    "start": "webpack-dev-server --port 8080"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,12 @@
   "homepage": "https://github.com/alexgamache/99RACING#readme",
   "devDependencies": {
     "@babylonjs/core": "^5.48.0",
+    "@babylonjs/gui": "^5.48.0",
+    "@babylonjs/gui-editor": "^5.48.0",
     "@babylonjs/inspector": "^5.48.0",
+    "@babylonjs/loaders": "^5.48.0",
+    "@babylonjs/materials": "^5.48.0",
+    "@babylonjs/serializers": "^5.48.0",
     "html-webpack-plugin": "^5.5.0",
     "ts-loader": "^9.4.2",
     "typescript": "^4.9.5",
